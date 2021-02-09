@@ -278,7 +278,7 @@ int main(int argc, char *argv[])
     GtkWidget *statusbar;
     GtkWidget *text_view;
     GtkTextBuffer *buffer;
-    GtkWidget* scrolledwindow;
+    GtkWidget *scrolledwindow;
 
     SearchBar bar;
 

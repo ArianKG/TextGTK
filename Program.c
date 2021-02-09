@@ -197,7 +197,7 @@ void show_about(GtkWidget *widget, gpointer data)
     GtkWidget *dialog = gtk_about_dialog_new();
     gtk_about_dialog_set_name(GTK_ABOUT_DIALOG(dialog), "TextGTK");
     gtk_about_dialog_set_comments(GTK_ABOUT_DIALOG(dialog),
-     "\nTextGTK is GTK Text Editor.\n");
+                                  "\nTextGTK is GTK Text Editor.\n");
     gtk_dialog_run(GTK_DIALOG(dialog));
     gtk_widget_destroy(dialog);
 }

@@ -168,7 +168,9 @@ void next_button_clicked(GtkWidget *next_button, SearchBar *bar)
 
     last_pos = gtk_text_buffer_get_mark(buffer, "last_pos");
     if (last_pos == NULL)
+    {
         return;
+    }
 
     gtk_text_buffer_get_iter_at_mark(buffer, &iter, last_pos);
     find(GTK_TEXT_VIEW(bar -> text_view), text, &iter);
